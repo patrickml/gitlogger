@@ -21,7 +21,7 @@ An auth token is needed so your application can post on your behalf. In order to
 }
 ```
 
-After this point you are good to go all errors will be added to your github repository! Just know any issues from the client side will be grouped together if they happen right after eachother. This is because on the client things continue where on the server it crashes.
+After this point you are good to go all errors will be added to your github repository! Just know any issues from the client side will be grouped together if they happen right after each other. This is because on the client things continue where on the server it crashes.
 
 ### Things to note ###
 `GitLogger` makes multiple API calls it makes one to search for an existing `open` issues and if it finds one it will `comment` on the issue instead of creating a duplicate. So this means if you have closed the issue and it comes back up again you will have a new issue created.

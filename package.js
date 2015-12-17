@@ -10,16 +10,16 @@ Package.describe({
   documentation: 'README.md'
 });
 
+Npm.depends({
+  'github' : '0.2.4'
+});
+
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use([
     'ecmascript',
     'underscore'
   ]);
-
-  Npm.depends({
-    'github' : '0.2.4'
-  });
 
   api.addFiles([
     'lib/both/namespace.js',
