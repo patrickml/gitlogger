@@ -1,0 +1,7 @@
+{
+  "github" : {
+    "token" : "YOUR_TOKEN",
+    "user" : "YOUR_USERNAME",
+    "repo" : "YOUR_REPO"
+  }
+}
