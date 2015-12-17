@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'patrickml:errors-to-github-issue',
-  version: '0.0.1',
+  name: 'patrickml:git-logger',
+  version: '1.0.0',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'Sends your Client and Server errors to Githubs issue tracker',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/patrickml/gitlogger',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
