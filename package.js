@@ -51,5 +51,5 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('patrickml:errors-to-github-issue');
+  api.use('patrickml:git-logger');
 });
