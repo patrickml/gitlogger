@@ -12,13 +12,7 @@ if (Meteor.isClient) {
     'click button': function () {
       // increment the counter when button is clicked
       Session.set('counter', Session.get('counter') + 1);
+      GitLogger.triggerError();
     }
-  });
-}
-
-if (Meteor.isServer) {
-  Meteor.startup(function () {
-
-      // Testing();
   });
 }

@@ -22,7 +22,8 @@ Package.onUse(function(api) {
   });
 
   api.addFiles([
-    'lib/both/namespace.js'
+    'lib/both/namespace.js',
+    'lib/both/trigger-error.js'
   ],[
     'client',
     'server'
